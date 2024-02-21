@@ -1,0 +1,167 @@
+
+/* reset all default css elements */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    height: 500vh;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+/* Start of styling the Hero section */
+.hero-section{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.hero-section img{
+    width: 80%;
+    object-fit: cover;
+}
+
+.hero-section .logo-heading{
+    position: absolute;
+    text-align: center;
+    flex-direction: column; 
+    left: 50%;
+    transform: translate(-50%, -100%); 
+     
+}
+
+.hero-section .logo-heading img{
+    width: 100px;
+    height: 100px;
+}
+
+.hero-section .logo-heading p{
+    color: #fff;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+.hero-section .logo-heading span{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+    display: block;
+}
+
+.hero-section .title-and-sub{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    top: 50%;
+}
+
+.hero-section .title-and-sub h1{
+    font-size: 120px; 
+    font-weight: 400;
+    color: rgb(255, 230, 0);
+    margin-bottom: 15px;
+}
+
+.hero-section .title-and-sub h3{
+    font-weight: 100;
+    color: #fff;
+}
+
+.hero-section .title-and-sub i{
+    color: rgb(255, 230, 0);
+    font-size: 120px;
+}
+/* End of styling the Hero section */
+
+/* Start of styling the main section */
+main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;  
+    flex-direction: row;
+}
+
+main img{
+    width: 80%;
+    object-fit: cover; 
+}
+
+main .left-col{
+    max-width: 25%;
+    width: 50%;
+    margin-right: 25%;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+main .left-col h2{
+    color: rgb(255, 230, 0);
+    font-size: 80px;
+    font-weight: 400;
+}
+
+main .right-col{
+    max-width: 25%;
+    width: 50%;
+    flex: 1;
+    margin-left: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    position: absolute;
+    
+}
+
+main .right-col p{
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+main button{
+    background: rgb(255, 230, 0);
+    color: black;
+    padding: 6px 20px;
+    margin-top: 20px;
+    border: none;
+    font-size: 14px;
+}
+/* End of styling the main section */
+
+/* Start of styling Kenai and Fjords section */
+.kenai_and_fjords{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;  
+    flex-direction: row;
+}
+
+.kenai_and_fjords img{
+    width: 80%;
+    object-fit: cover;
+}
+
+
+
+/* End of styling Kenai and Fjords section */
